@@ -3,6 +3,8 @@
 
 #include <QWidget>
 #include <QMessageBox>
+#include <QSqlDatabase>
+#include <QSqlQuery>
 
 namespace Ui {
 class Registration;
