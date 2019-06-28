@@ -55,6 +55,8 @@ void Registration::processRegistration()
             if (!query.exec(insert+values))
                 QMessageBox::critical(this, "DataBase Error", "Problem with DataBase!");
             else {
+                QMessageBox::warning(this, "Success", "Registration has finished successfully!");
+                db.close();
                 this->close();
             }
         }
