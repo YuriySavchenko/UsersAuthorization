@@ -66,6 +66,8 @@ void Authorization::processAuthorization()
         this->ui->lineEditLastName->clear();
         this->ui->lineEditSex->clear();
         this->ui->lineEditAge->clear();
+
+        db.close();
     }
 
     else
