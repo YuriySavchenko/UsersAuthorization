@@ -26,5 +26,5 @@ If we want register new own account we must fill all fields by correct informati
 
 ![image](https://user-images.githubusercontent.com/36791929/60385006-2565b700-9a8d-11e9-9c6b-965cfe7af955.png)
 
-If registration has finished successful than in Database appears new write for matched user.
+If registration has finished successful then in Database appears new write for matched user.
 As result we must receive message that Registration finished successful.
